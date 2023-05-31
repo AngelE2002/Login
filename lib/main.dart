@@ -1,4 +1,5 @@
 import 'package:login_page/pages/login.dart';
+import 'package:login_page/pages/registro.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: Login(),
+      home: Register(key: UniqueKey()), 
     );
   }
 }
